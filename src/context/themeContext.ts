@@ -1,13 +1,14 @@
+
 import { Dispatch, SetStateAction, createContext } from "react";
 
 type ThemeContextType = {
     darkTheme: boolean;
-    setDrakTheme: Dispatch<SetStateAction<boolean>>
+    setDarkTheme: Dispatch<SetStateAction<boolean>>;
 };
 
 const ThemeContext = createContext<ThemeContextType>({
     darkTheme: false,
-    setDrakTheme: () => null,
+    setDarkTheme: () => null,
 });
 
 export default ThemeContext;

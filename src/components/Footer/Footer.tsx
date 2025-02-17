@@ -11,10 +11,10 @@ const Footer = () => {
           <h4 className="font-semibold text-[40px] py-6">Contact</h4>
           <div className="flex flex-wrap gap-16 items-center justify-between">
             <div className="flex-1">
-                <p>123 Road</p>
+                <p>SGSISTS Park Road Indore,Madhya Pradesh - 46...</p>
                 <div className="flex-item-center py-4">
                   <BsFillSendFill />
-                  <p className="ml-2">abc</p>
+                  <p className="ml-2">SGSITS@sgsits.ac.in</p>
                 </div>
                 <div className="flex-item-center">
                   <BsTelephoneOutbound />
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div className="flex-item-center pt-4">
                   <BiMessageDetail />
-                  <p className="ml-2">abc</p>
+                  <p className="ml-2">Message here</p>
                 </div>
             </div>
 
